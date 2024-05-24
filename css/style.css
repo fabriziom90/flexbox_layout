@@ -32,56 +32,36 @@ header {
 .row {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
-}
-
-.col-25 {
-    width: calc(25% - 5px);
-    background-color: rgba(112, 0, 0, 0.579);
-    border: 1px solid black;
-    height: 100px;
 }
 
 .col-50 {
-    width: calc(50% - 10px);
-    background-color: rgba(112, 0, 0, 0.579);
-    border: 1px solid black;
-    height: 300px;
+    width: 50%;
+
 }
 
 .col-75 {
-    width: calc(75% - 5px);
-    background-color: rgba(255, 179, 65, 0.497);
-    border: 1px solid black;
-    height: 100px;
+    width: 75%;
+
 }
 
 .col-100 {
     width: 100%;
-    background-color: rgba(112, 0, 0, 0.579);
-    border: 1px solid black;
-    height: 300px;
+
 }
 
 .col-33 {
-    width: calc(100% / 3 - 10px);
-    background-color: rgba(112, 0, 0, 0.579);
-    border: 1px solid black;
-    height: 300px;
+    width: calc(100% / 3);
+
 }
 
 .col-25 {
-    width: calc(25% - 10px);
-    background-color: rgba(112, 0, 0, 0.579);
-    border: 1px solid black;
-    height: 300px;
+    width: 25%;
+
 }
 
 .col-16 {
-    width: calc(100% / 6 - 10px);
-    background-color: rgba(112, 0, 0, 0.579);
-    border: 1px solid black;
-    height: 300px;
+    width: calc(100% / 6);
+
 }
 
 .no-gutter {
@@ -89,6 +69,13 @@ header {
 }
 
 /* STYLING CLASSES */
+
+.content {
+    margin: 10px;
+    background-color: rgba(112, 0, 0, 0.579);
+    border: 1px solid black;
+    height: 300px;
+}
 
 .my-30 {
     margin: 30px 0;
